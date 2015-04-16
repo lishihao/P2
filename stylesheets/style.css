@@ -12,7 +12,7 @@ header .container, main .container, footer .container {
 }
 
 header {
-  background: white;
+  background: black;
   overflow: auto;
 }
 
@@ -27,8 +27,9 @@ header nav {
 }
 
 main {
-  background: white;
+  background: purple;
   overflow: auto;
+
 }
 
 main .left {
@@ -49,4 +50,7 @@ footer .left {
 footer .sitemap {
   float: right;
   width: 285px;
+}
+  * {
+  color: red;
 }
